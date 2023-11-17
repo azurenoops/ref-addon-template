@@ -2,7 +2,7 @@
 # Licensed under the MIT License.
 
 #####################################
-### Workload Spoke Configuations  ###
+### Workload Spoke Configurations  ###
 #####################################
 
 module "mod_workload_spoke" {

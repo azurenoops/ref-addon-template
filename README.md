@@ -13,7 +13,7 @@ The following picture shows the high-level architecture created by the Terraform
 
 The architecture is composed of the following elements:
 
-<describe resoureces that are in the module>
+<describe resourceces that are in the module>
 
 ## Limitations ##
 
