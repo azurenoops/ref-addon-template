@@ -5,7 +5,7 @@
 SUMMARY: Module to deploy an Azure Budgets for a Partner Environment
 DESCRIPTION: The following components will be options in this deployment
              * Budgets
-AUTHOR/S: jspinella
+AUTHOR/S: jrspinella
 */
 
 #############################
@@ -49,7 +49,7 @@ module "mod_workload_network" {
   # (Required) Multiple Subnets, Service delegation, Service Endpoints, Network security groups
   # These are default subnets with required configuration, check README.md for more details
   # Route_table and NSG association to be added automatically for all subnets listed here.
-  # subnet name will be set as per Azure naming convention by defaut. expected value here is: <App or project name>
+  # subnet name will be set as per Azure naming convention by default. expected value here is: <App or project name>
   spoke_subnets = var.wl_subnets
 
   # Enable Flow Logs
@@ -63,7 +63,7 @@ module "mod_workload_network" {
 
   # Private DNS Zone Settings
   # By default, Azure NoOps will create Private DNS Zones for Logging in Hub VNet.
-  # If you do want to create addtional Private DNS Zones, 
+  # If you do want to create additional Private DNS Zones, 
   # add in the list of private_dns_zones to be created.
   # else, remove the private_dns_zones argument.
   private_dns_zones = var.wl_private_dns_zones
